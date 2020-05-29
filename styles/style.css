@@ -1,0 +1,170 @@
+/***************** TAG SELECTOR *****************/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #0b171d;
+}
+
+h2,
+h3 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 2.5rem;
+}
+
+h2 {
+    
+    color: #0b171d;;
+}
+
+h3 {
+    color: #cae8d5;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+hr {
+    width: 10%;
+    margin: 20px auto;
+}
+
+/************** CLASS SELECTOR *******************/
+
+/* 
+-----------> TOP CONTAINER
+*/
+
+.top-container {
+    background-color: #cae8d5;
+    position: relative;
+    padding-top: 100px;
+    
+}
+
+.top-cloud {
+    position: relative;
+    top: 10px;
+    right: 200px;
+}
+
+.top-mountain {
+    position: relative;
+    bottom: 0px;
+    
+}
+
+.bottom-cloud {
+    position: relative;
+    bottom: 300px;
+    left: 600px;
+}
+
+.top-h2 {
+    color: #204051;
+}
+
+/* 
+-----------> MIDDLE CONTAINER
+*/
+
+
+.middle-container {
+    background-color: #3b6978;
+    line-height: 2;
+}
+
+/* 
+---->PROFILE
+*/
+
+.profile {
+    margin: 0px auto;
+    width: 50%;
+}
+
+.profile-img {
+    height: 200px;
+    margin-top: 40px;
+}
+
+/* 
+---->SKILLS
+*/
+
+.skills {
+    margin: 0px auto;
+    width: 50%;  
+    text-align: center;  
+}
+
+.skill-rows {
+    margin: 100px auto;
+    text-align: left;
+}
+
+.top-row {
+    padding-bottom: 50px;
+}
+
+.web-img {
+    width: 100px;
+    float: left;
+}
+
+.cpp-img {
+    width: 100px;
+    float: left;
+}
+
+/* 
+---->CONTACT ME
+*/
+.contact-me {
+    margin: 0px auto;
+    width: 50%;
+    padding-bottom: 30px;
+}
+
+.contact-text {
+    margin-bottom: 30px;
+}
+
+.btn {
+    font-weight: 800;
+    color: #0b171d;
+    font-size: x-large;
+    background-color: #cae8d5;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(202, 232, 213, 0.5); 
+}
+/* 
+-----------> BOTTON CONTAINER
+*/
+
+.bottom-container {
+    background-color: #cae8d5;
+    width: auto;
+    padding-top: 80px;
+}
+
+.footer-link {
+    font-size: 1.5rem;
+    color: #11999e;
+}
+
